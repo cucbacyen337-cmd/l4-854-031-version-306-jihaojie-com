@@ -1,16 +1,10 @@
-﻿# website-upload-854-031
+# 经典国产电视剧-经典剧集片库-高清剧集在线播放
 
-Batch 31 of 49. Contains extracted static website versions. The original zip files are not committed.
+这是根据上传素材生成的纯静态电影网站。
 
-| Directory | Source zip |
-| --- | --- |
-| version-301 | project-bolt-sb1-aq3k83cg-chatgpt (2).zip |
-| version-302 | project-bolt-sb1-aqevaypc - 副本-chatgpt (1) - from-a-20260526-121348-0138.zip |
-| version-303 | project-bolt-sb1-aqevaypc - 副本-chatgpt (1).zip |
-| version-304 | project-bolt-sb1-aqevaypc - 副本-chatgpt (1)__1.zip |
-| version-305 | project-bolt-sb1-aqevaypc - 副本-chatgpt (2).zip |
-| version-306 | project-bolt-sb1-aqevaypc-chatgpt (1) - from-a-20260526-121348-0139.zip |
-| version-307 | project-bolt-sb1-aqevaypc-chatgpt (1).zip |
-| version-308 | project-bolt-sb1-aqevaypc-chatgpt (1)__1.zip |
-| version-309 | project-bolt-sb1-aqevaypc-chatgpt (2).zip |
-| version-310 | project-bolt-sb1-aqpnnrxm - 副本-chatgpt (1) - from-a-20260526-121348-0140.zip |
+- 影片详情页：2000 个
+- 分类页：8 个
+- 播放器：详情页使用 HLS 播放源并初始化 hls.js，支持浏览器原生 HLS 回退
+- 封面图：页面引用站点顶级目录下的 `1.jpg` 到 `150.jpg`，可在部署前把对应图片放入网站根目录
+
+入口文件：`index.html`
